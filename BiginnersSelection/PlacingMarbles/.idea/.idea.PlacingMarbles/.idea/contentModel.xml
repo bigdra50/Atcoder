@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\ryudai\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ryudai\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_PlacingMarbles.1706743898.00" t="ExcludeRecursive" />
+    <e p="D:\Workspace\Atcoder\BiginnersSelection\PlacingMarbles" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="PlacingMarbles" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="PlacingMarbles.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PlacingMarbles.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="PlacingMarbles.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
