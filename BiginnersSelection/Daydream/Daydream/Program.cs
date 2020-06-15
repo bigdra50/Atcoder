@@ -6,16 +6,20 @@ namespace Daydream
 {
     internal class Program
     {
+        private static Func<string, bool> judge;
+
         public static void Main(string[] args)
         {
-            Func<string, bool> judge = target =>
+            judge = target =>
             {
-                var wip = Regex.Replace(target, "eraser","");
-                wip = Regex.Replace(wip, "erase", "");
-                wip = Regex.Replace(wip, "dreamer", "");
-                wip = Regex.Replace(wip, "dream", "");
+                var wip = Regex.Replace(target, "eraser", ".");
+                wip = Regex.Replace(wip, "erase", ".");
+                wip = Regex.Replace(wip, "dreamer", ".");
+                wip = Regex.Replace(wip, "dream", ".");
+                wip = Regex.Replace(wip, @"\.", "");
                 return wip == "";
             };
+            //judge = target => Regex.IsMatch(target, "(dream|dreamer|erase|eraser)*");
             WriteLine(judge(ReadLine()) ? "YES" : "NO");
         }
     }
